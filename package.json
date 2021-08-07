@@ -1,0 +1,15 @@
+{
+  "name": "node_testing",
+  "version": "1.0.0",
+  "description": "testing lesson",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
