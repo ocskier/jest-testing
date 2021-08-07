@@ -2,9 +2,9 @@ const MathFxns = require('../mathfxns.js');
 const math = new MathFxns();
 
 describe('class constructor \n',()=>{
-    afterEach(()=>{
-        console.log('\n...Completed class instance test!\n');
-    })
+    // afterEach(()=>{
+    //     console.log('\n...Completed class instance test!\n');
+    // })
     it('should create an instance of the class',()=>{
         const newInstance = new MathFxns();
         expect(newInstance).toBeInstanceOf(MathFxns);
@@ -14,9 +14,9 @@ describe('class constructor \n',()=>{
 describe('functions \n',()=>{
     // add a test hook
     var numTest = 1;
-    afterEach(()=>{
-        console.log(`\n...Completed functional test ${numTest++}!\n`);
-    })
+    // afterEach(()=>{
+    //     console.log(`\n...Completed functional test ${numTest++}!\n`);
+    // })
 
     describe('add two numbers',()=>{
         it('should return the sum of two numbers',()=>{
